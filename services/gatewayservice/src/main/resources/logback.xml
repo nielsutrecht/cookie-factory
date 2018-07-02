@@ -6,7 +6,7 @@
         </encoder>
     </appender>
 
-    <logger name="org.springframework.cloud.gateway.handler" level="info"/> <!-- Set to debug to see route handling -->
+    <logger name="org.springframework.cloud.gateway.handler" level="debug"/> <!-- Set to debug to see route handling -->
 
     <root level="info">
         <appender-ref ref="STDOUT" />

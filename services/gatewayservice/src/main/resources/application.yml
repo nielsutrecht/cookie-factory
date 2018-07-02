@@ -1,6 +1,9 @@
 spring:
   cloud:
     gateway:
+      default-filters:
+      - AddResponseHeader=X-Response-Via, Gateway
+      - AddRequestHeader=X-Request-Via, Gateway
       routes:
       - id: test_route
         uri: https://httpbin.org/get
