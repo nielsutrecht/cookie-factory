@@ -1,0 +1,7 @@
+server:
+  port: 8081
+
+service:
+  cookies:  http://localhost:8080
+  factory:  http://localhost:8081
+  stock:    http://localhost:8082
